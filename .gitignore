@@ -1,0 +1,40 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build output and intermediate files
+[Bb]in/
+[Oo]bj/
+TestResults/
+out/
+
+# IDE and tooling caches
+.vscode/
+*.nupkg
+*.snupkg
+
+# Logs and local diagnostics
+*.log
+logs/
+
+# Local configuration and environment files
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+
+# Certificates, keys, and credential material
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+secrets.json
+credentials.json
+
+# OS metadata
+Thumbs.db
+Desktop.ini
